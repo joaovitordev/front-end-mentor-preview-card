@@ -1,0 +1,49 @@
+body {
+    background-color: #0a0c1b;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1c1938;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card > section > h1 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.card > section > h1 > span {
+    color: #ac5ada;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card > section > p {
+    color: #bab8cf;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.section-informations {
+    margin: 0px 25px;
+}
+
+.section-image {
+    display: flex;
+}
+
+img {
+    border-radius: 0px 10px 10px 0px;
+}
